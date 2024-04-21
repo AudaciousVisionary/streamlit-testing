@@ -3,8 +3,6 @@ import ollama
 from typing import Dict, Generator
 import os
 
-os.environ["OLLAMA_HOST"] = st.secrets["OLLAMA_HOST"]
-
 def ollama_generator(model_name: str, messages: Dict) -> Generator:
     stream = ollama.chat(
         model=model_name, messages=messages, stream=True)

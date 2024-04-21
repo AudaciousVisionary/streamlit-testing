@@ -1,3 +1,2 @@
-numpy
-streamlit==1.31.0
-ollama==0.1.6
+streamlit
+https://github.com/AudaciousVisionary/ollama-python
