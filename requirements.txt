@@ -1,2 +1,2 @@
 streamlit
-https://github.com/AudaciousVisionary/ollama-python
+git+https://github.com/AudaciousVisionary/ollama-python
